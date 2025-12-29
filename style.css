@@ -1,0 +1,12 @@
+.event-btn {
+    font-family: "Lato", "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #92EFCF;
+    border: none;
+    border-radius: 5px;
+    margin: 4px 0px;
+    padding: 8px 12px;
+    max-width: max-content;
+    text-align: center;
+  }
