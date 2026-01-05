@@ -12,6 +12,11 @@ function renderCalendarButton(wrapper) {
 
     const btn = document.createElement('button');
     btn.classList.add('event-btn');
+    // TODO: Copy bgcolor and color of 1st event tag
+    const eventTag = document.getElementsByClassName('page-tags')[0].children[0]; // prioritize 1st tag
+    const computedStyle = window.getComputedStyle(eventTag);
+    btn.style.color = computedStyle.color;
+    btn.style.backgroundColor = computedStyle.backgroundColor;
     btn.textContent = 'Add to GO Calendar';
     wrapper.appendChild(btn);
 

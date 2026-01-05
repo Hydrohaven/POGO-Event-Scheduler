@@ -2,11 +2,12 @@
     font-family: "Lato", "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: bold;
-    background-color: #92EFCF;
+    background-color:rgb(78, 199, 236);
     border: none;
     border-radius: 5px;
     margin: 4px 0px;
     padding: 8px 12px;
     max-width: max-content;
     text-align: center;
-  }
+    cursor: pointer;
+}
